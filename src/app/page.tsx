@@ -101,8 +101,8 @@ export default function Home() {
     }
   };
 
-  const startOver = async () => {
-    setUserImageUrl(undefined);
+  const startOver = () => {
+    window.location.reload();
   };
 
   return (
